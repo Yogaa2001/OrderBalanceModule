@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { placeOrder } from '../services/ordersService';
+import { placeOrder } from '../services/ordersService'; // Ensure the path is correct
 
 export const placeOrderController = async (req: Request, res: Response) => {
     try {
